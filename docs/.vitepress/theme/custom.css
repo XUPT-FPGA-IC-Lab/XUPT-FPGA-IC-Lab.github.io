@@ -1,0 +1,67 @@
+
+/* 首页 Hero：实验室名称 */
+.VPHomeHero .name {
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+/* 首页 Hero：主标题 */
+.VPHomeHero .text {
+  font-size: clamp(36px, 4.5vw, 64px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+
+/* ===== Markdown 文档排版 ===== */
+
+/* 普通正文 */
+.vp-doc p,
+.vp-doc li {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+/* 一级标题 */
+.vp-doc h1 {
+  font-size: 28px;
+  line-height: 1.35;
+}
+
+/* 二级标题 */
+.vp-doc h2 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-top: 32px;
+  padding-top: 18px;
+}
+
+/* 三级标题 */
+.vp-doc h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 24px;
+}
+
+/* 四级标题 */
+.vp-doc h4 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* 表格 */
+.vp-doc table {
+  font-size: 13px;
+}
+
+/* 代码块 */
+.vp-doc div[class*="language-"] code {
+  font-size: 13px;
+}
+
+/* 行内代码 */
+.vp-doc :not(pre) > code {
+  font-size: 0.9em;
+}
+
